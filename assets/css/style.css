@@ -4664,8 +4664,17 @@ z .slider-area .hero-cap h2 {
     }
 }
 .services-area {
-    padding-top: 190px;
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 15%;
     background-color: #343a40;
+    background-image: url('../img/hero/header\ informatique.png');
+    /* height: 477px; */
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .services-area {
@@ -4795,7 +4804,8 @@ z .slider-area .hero-cap h2 {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 90px;
-    color: #ccc !important;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 7px 2px 10px black;
 }
 @media (max-width: 767px) {
     .section-tittle h2 {
@@ -5841,8 +5851,9 @@ z .slider-area .hero-cap h2 {
 .detail-divider {
     width: 21%;
     height: 3px;
-    background-color: #ccc;
+    background-color: #ffc107;
     margin: 13px auto;
+    box-shadow: 5px 5px 13px #0d0d0d;
 }
 
 /* #ef8918 orange */
